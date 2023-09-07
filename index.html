@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Outfit";
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      font-size: 15px;
+      background-color: hsl(212, 45%, 89%);
+    }
+
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 250px;
+      width: 100%;
+      background: #fff; 
+      border-radius: 15px;
+      padding: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .desc {
+      text-align: center;
+    }
+
+    .desc p {
+      font-size: 15px;
+      font-weight: 700;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      color: hsl(218, 44%, 22%);
+    }
+
+    .desc p:last-child {
+      font-weight: 400;
+      color: hsl(220, 15%, 55%);
+    }
+
+    .attribution { 
+      font-size: 11px;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <img src="./images/image-qr-code.png">
+    </div>
+
+    <div class="desc">
+      <p>Improve your front-end skills by building projects</p>
+      <p>Scan the QR code to visit Fontend Mentor to take your coding skills to the next level</p>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abdul Ma'aji</a>.
+  </div>
+</body>
+</html>
